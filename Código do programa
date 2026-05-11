@@ -1,0 +1,23 @@
+operação = int(input("Digite qual operação você deseja realizar: "))
+print('1 - Soma 2 - Subtração 3 - Multiplicação 4 - Divisão')
+
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+
+
+if operação == 1:
+    soma = num1 + num2
+    print(soma)
+
+elif operação == 2:
+    subtração = num1 - num2
+    print(subtração)
+
+elif operação == 3:
+    multiplicação = num1 * num2
+    print(multiplicação)
+
+elif operação == 4:
+    divisão = num1 / num2
+    print(divisão)
+
